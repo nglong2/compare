@@ -28,7 +28,6 @@ var home = {
         var editor1 = CKEDITOR.instances.editor1;
         var editor2 = CKEDITOR.instances.editor2;
 
-
         if (editor1 && editor2) {
 
             editor2.setData(editor1.getData());
