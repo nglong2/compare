@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i9qZeUnAyXEGgKcWWmRATO0GKSuxb4MsrYNAM0tmvCL8Cy6xAixHLPzwBRlwumd2uRja3gx1SrcOZbs4XiUvSA==",
+  "dgSpecHash": "TBhiVV6yXlwBY4HqZNavjxqEMavawEGfYOk0PxkRPDq7U08bDGrdFS9hDuKk9AsXa0ISDxg+O5bwne9wUGOTAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\CompareProject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Long\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
   "logs": []
 }
