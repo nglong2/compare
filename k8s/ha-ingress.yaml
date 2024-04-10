@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: compare-ingress
+  namespace: compare
+  annotations:
+    kubernetes.io/ingress.class: "haproxy"
+    kubernetes.io/tls-acme: "true"
+spec:
+  rules:
+  - host: compare.jinnie.online
+    http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: compare-service
+            port:
+              number: 8080
+  tls:
+  - hosts:
+    - compare.jinnie.online
+    secretName: argocd-cert

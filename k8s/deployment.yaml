@@ -1,0 +1,22 @@
+#v1
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: compare-deployment
+  namespace: compare
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: compare
+  template:
+    metadata:
+      labels:
+        app: compare
+    spec:
+      containers:
+      - name: compare
+        image: daikmasa/compare:latest
+        ports:
+        - containerPort: 8080
+        imagePullPolicy: Always  # Set imagePullPolicy to Always to ensure Kubernetes always pulls the latest image
