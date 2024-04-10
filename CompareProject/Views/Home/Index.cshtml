@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <div class="">
+        <div class="row">
+
+            <div class="col-md-5 pe-45">
+                <h3 class="btn-danger">Bản Mẫu</h3>
+                <textarea name="editor2" id="editor1" rows="110" cols="180">
+                This is my textarea to be replaced with CKEditor 4.</textarea>
+            </div>
+            <div class="col-md-auto d-flex align-items-center justify-content-center">
+                
+                <button onclick="home.clickLoad()" type="button" class="btn btn-primary">Load >>></button>
+
+               
+            </div>
+            <div class="col-md-5">
+                <h3 class="btn-info">Bản Chỉnh Sửa</h3>
+                <textarea name="editor2" id="editor2" rows="110" cols="180">
+                </textarea>
+                <button onclick="home.clickCompare()" class="btn btn-info mt-1">Compare</button>
+                <button onclick="home.clickLastPhase()" class="btn btn-outline-success mt-1">Bản cuối</button>
+            </div>
+        </div>
+    </div>
+</div>

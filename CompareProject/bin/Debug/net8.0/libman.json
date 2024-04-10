@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "diff2html@2.12.2",
+      "destination": "wwwroot/lib/diff2html/"
+    }
+  ]
+}
