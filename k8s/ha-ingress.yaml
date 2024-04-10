@@ -21,4 +21,4 @@ spec:
   tls:
   - hosts:
     - compare.jinnie.online
-    secretName: argocd-cert
+    secretName: compare-tsl
