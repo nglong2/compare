@@ -28,7 +28,7 @@ jobs:
       run: docker compose up
       
     - name: Tag Docker image
-      run: docker tag compare:latest daikmasa/compare:latest
+      run: docker tag compareproject:latest daikmasa/compare:latest
 
     - name: Push Docker image to Docker Hub
       run: docker push daikmasa/compare:latest
