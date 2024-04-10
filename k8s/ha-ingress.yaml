@@ -22,3 +22,4 @@ spec:
   - hosts:
     - compare.jinnie.online
     secretName: compare-tsl
+#kubectl create secret tls compare-tsl -n compare  --cert=/etc/letsencrypt/live/compare.jinnie.online/fullchain.pem --key=/etc/letsencrypt/live/compare.jinnie.online/privkey.pem
