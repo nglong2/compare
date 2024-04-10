@@ -1,0 +1,12 @@
+C:\Users\Long\source\repos\CompareProject\bin\Debug\CompareProject.deps.json
+C:\Users\Long\source\repos\CompareProject\bin\Debug\CompareProject.runtimeconfig.json
+C:\Users\Long\source\repos\CompareProject\bin\Debug\appsettings.Development.json
+C:\Users\Long\source\repos\CompareProject\bin\Debug\appsettings.json
+C:\Users\Long\source\repos\CompareProject\bin\Debug\libman.json
+C:\Users\Long\source\repos\CompareProject\bin\Debug\CompareProject.staticwebassets.runtime.json
+C:\Users\Long\source\repos\CompareProject\bin\Debug\CompareProject.exe
+C:\Users\Long\source\repos\CompareProject\bin\Debug\CompareProject.dll
+C:\Users\Long\source\repos\CompareProject\bin\Debug\CompareProject.pdb
+C:\Users\Long\source\repos\CompareProject\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Long\source\repos\CompareProject\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Long\source\repos\CompareProject\obj\Debug\docker-c.35A3FFBA.Up2Date

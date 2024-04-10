@@ -1,6 +1,8 @@
 using CompareProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Net;
+using System.Net.Sockets;
 
 namespace CompareProject.Controllers
 {
@@ -15,6 +17,11 @@ namespace CompareProject.Controllers
 
         public IActionResult Index()
         {
+            // get current ipv4 local
+
+    
+            ViewBag.ip= GetLocalIPAddress();
+           
             return View();
         }
 
@@ -28,5 +35,18 @@ namespace CompareProject.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public static string GetLocalIPAddress()
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+            throw new Exception("No network adapters with an IPv4 address in the system!");
+        }
     }
+    
 }

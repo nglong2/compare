@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Long\\source\\repos\\CompareProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|c:\\users\\long\\source\\repos\\compareproject\\compareproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|solutionrelative:compareproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|c:\\users\\long\\source\\repos\\compareproject\\compareproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|solutionrelative:compareproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BA1BAB4-9F8F-4924-9D09-35FA3D2D1E46}|docker-compose.dcproj|c:\\users\\long\\source\\repos\\compareproject\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3BA1BAB4-9F8F-4924-9D09-35FA3D2D1E46}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|c:\\users\\long\\source\\repos\\compareproject\\compareproject\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|solutionrelative:compareproject\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|c:\\users\\long\\source\\repos\\compareproject\\compareproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|solutionrelative:compareproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A1EDC50-B58A-4FB7-814F-9DFF62F995D4}|CompareProject\\CompareProject.csproj|c:\\users\\long\\source\\repos\\compareproject\\compareproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,12 +38,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "docker-compose",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CompareProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CompareProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:02:20.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.dcproj",
               "DocumentMoniker": "C:\\Users\\Long\\source\\repos\\CompareProject\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
               "ToolTip": "C:\\Users\\Long\\source\\repos\\CompareProject\\docker-compose.dcproj",
@@ -50,12 +71,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CompareProject\\wwwroot\\css\\site.css",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "diff.js",
               "DocumentMoniker": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\wwwroot\\js\\diff.js",
               "RelativeDocumentMoniker": "CompareProject\\wwwroot\\js\\diff.js",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "CompareProject\\wwwroot\\js\\site.js",
@@ -87,24 +104,24 @@
               "RelativeToolTip": "CompareProject\\wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-10T02:02:38.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T02:02:38.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CompareProject\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "CompareProject\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T02:02:22.273Z"
+              "WhenOpened": "2024-04-10T02:02:22.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Long\\source\\repos\\CompareProject\\CompareProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CompareProject\\Views\\Shared\\_Layout.cshtml",

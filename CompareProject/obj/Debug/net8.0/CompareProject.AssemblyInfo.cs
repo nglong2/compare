@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompareProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e677ed1b15ffa5428b7cd7501cb4ae1a43b5fd8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be73036d61ce84e1589ef50689f820e8ebf4576b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompareProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompareProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

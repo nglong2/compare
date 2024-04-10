@@ -29,3 +29,4 @@ C:\Users\Long\source\repos\CompareProject\CompareProject\obj\Debug\net8.0\Compar
 C:\Users\Long\source\repos\CompareProject\CompareProject\obj\Debug\net8.0\CompareProject.genruntimeconfig.cache
 C:\Users\Long\source\repos\CompareProject\CompareProject\obj\Debug\net8.0\ref\CompareProject.dll
 C:\Users\Long\source\repos\CompareProject\CompareProject\bin\Debug\net8.0\libman.json
+C:\Users\Long\source\repos\CompareProject\CompareProject\obj\Debug\net8.0\CompareProject.sourcelink.json
